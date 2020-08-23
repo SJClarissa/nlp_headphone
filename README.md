@@ -1,4 +1,4 @@
-# Air Quality Analysis and Simulation
+# Reading headphone trends using Reddit postings
 ---
 
 ## Table of Contents
@@ -6,7 +6,6 @@
 - [2 Project Outline / Problem Statement](#2-Project-Outline-/-Problem-Statement)<br>
 - [3 Description of Data](#3-Description-of-Data)<br>
  -[Size](#Size)<br>
- -[Source](#Source)<br>
  -[Data Dictionary](#Data-Dictionary)<br>
 - [4 Data Visualization](#4-Data-Visualization)<br>
 - [5 Conclusion](#5-Conclusion)<br>
