@@ -12,7 +12,8 @@ lda2 = LDA_Pointer('2019','7')
 
 @app_lda.route('/')
 def main():
-    return render_template('main.html')
+    txt1 = "Memo"
+    return render_template('main.html', memo1=txt1)
 
 @app_lda.route('/default')
 def default():
@@ -151,5 +152,5 @@ def cat2_7():
 
 if __name__ == '__main__':
     app_lda.run(debug=True)
-    #app_lda.run(host='0.0.0.0')
+    # app_lda.run(host='0.0.0.0')
     

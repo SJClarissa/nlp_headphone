@@ -34,43 +34,41 @@
 ---
 ## 2 Project Outline / Problem Statement
 
-Natural Language Processing of reddit posts on headphones.
+Reading trends is important for most companies. Can we read trends by analysing Reddit postings which we casually come across? Here comes the answer. By NLP(Natural Language Processing) using the LDA(Latent Dirichlet Allocation) library in Python, I could find trends and product insights based on reddit posts of headphones.
 
 ---
 ## 3 Description of Data
 
 ### Size
-- WIP
-
-### Source
-- https://www.reddit.com/r/headphones/
-- https://www.reddit.com/r/HeadphoneAdvice/
+- 209 MB
 
 ### Data Dictionary
-WIP
+|Dataset|Feature|Type|Description|
+|---|---|---|---|
+|HeadphoneAdvice.csv, HeadphoneAdvice_cmt.csv, headphones.csv, headphones_cmt.csv | subreddit | object | name of subreddit |
+|HeadphoneAdvice.csv, HeadphoneAdvice_cmt.csv, headphones.csv, headphones_cmt.csv | created_utc | int64 | created time |
+|HeadphoneAdvice.csv, HeadphoneAdvice_cmt.csv, headphones.csv, headphones_cmt.csv | body | object | contents of reddit postings |
+|HeadphoneAdvice.csv, HeadphoneAdvice_cmt.csv, headphones.csv, headphones_cmt.csv | score | int64 | score of postings or comments |
+
 ---
 
 ## 4 Data Visualization
-#### Graphs
-WIP
-
-#### Simulator
-WIP
+<img src="./img/lda.png">
 
 ---
 ## 5 Conclusion
-
-- WIP
+<img src="./img/executive_summary.jpg">
 
 ---
 ### 6 Next Steps
 
-- WIP
+- Sales data, consumer behavior research, specifications of products and so on will lead me to deeper analysis and insights.
 
 ---
 ## 7 Outside Sources
 
-- WIP
+- https://www.reddit.com/r/headphones/
+- https://www.reddit.com/r/HeadphoneAdvice/
 
 
 ```
