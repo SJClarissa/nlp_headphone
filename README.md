@@ -1,5 +1,6 @@
 # Reading trends of headphones using Reddit postings
 ---
+## <a href="http://ec2-52-91-40-43.compute-1.amazonaws.com/">Link to the Visualization (Click here) </a>
 
 ## Table of Contents
 - [1 Directory Structure](#1-Directory-Structure)<br>
